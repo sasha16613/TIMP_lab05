@@ -19,7 +19,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 
 if(BUILD_TESTS)
     enable_testing()
-    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/gtest)
+    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/googletest)
     add_executable(check ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp)
     target_compile_options(check PRIVATE)
     target_link_libraries(check banking gtest_main)
