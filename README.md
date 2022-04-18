@@ -1,5 +1,4 @@
 ## Laboratory work V
-https://coveralls.io/repos/github/sasha16613/TIMP_lab05/badge.svg?branch=master(Coverage Status)!:https://coveralls.io/github/sasha16613/TIMP_lab05?branch=master
 Данная лабораторная работа посвещена изучению фреймворков для тестирования на примере **GTest**
 
 ```sh
