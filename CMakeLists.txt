@@ -19,8 +19,8 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 
 if(BUILD_TESTS)
     enable_testing()
-    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/third-party/gtest)
-    add_executable(check ${CMAKE_CURRENT_SOURCE_DIR}/tests/test1.cpp)
+    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/gtest)
+    add_executable(check ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp)
     target_compile_options(check PRIVATE)
     target_link_libraries(check banking gtest_main)
     add_test(NAME unit_tests COMMAND check)
