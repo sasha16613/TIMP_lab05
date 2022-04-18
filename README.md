@@ -4,7 +4,7 @@
 ```sh
 $ open https://github.com/google/googletest
 ```
-
+[![Coverage Status](https://coveralls.io/repos/github/sasha16613/TIMP_lab05/badge.svg?branch=master)](https://coveralls.io/github/sasha16613/TIMP_lab05?branch=master)
 ## Tasks
 
 - [ ] 1. Создать публичный репозиторий с названием **lab05** на сервисе **GitHub**
