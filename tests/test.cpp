@@ -5,8 +5,6 @@
 TEST(Transaction, account) {
     Account Acc(101, 100);
     EXPECT_EQ(Acc.GetBalance(), 100);
-    //int id1 = Acc.id();
-    //EXPECT_EQ(id1, 101);
 }
 
 TEST(Transaction, change_balance) {
