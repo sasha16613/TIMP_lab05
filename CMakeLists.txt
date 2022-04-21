@@ -9,8 +9,8 @@ project(banking)
 option(BUILD_TESTS "Build tests" ON)
 
 add_library(banking STATIC
-        ${CMAKE_CURRENT_SOURCE_DIR}/banking/Account.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/banking/Transaction.cpp
+        ./banking/Account.cpp
+        ./banking/Transaction.cpp
         )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
