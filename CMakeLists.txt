@@ -14,13 +14,13 @@ add_library(banking STATIC
         )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
-        ${CMAKE_CURRENT_SOURCE_DIR}/banking
+        ./banking
 )
 
 if(BUILD_TESTS)
     enable_testing()
-    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/googletest)
-    add_executable(check ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp)
+    add_subdirectory(./googletest)
+    add_executable(check ./tests/test.cpp)
     target_link_libraries(check banking gtest_main)
     add_test(NAME unit_tests COMMAND check)
 endif()
