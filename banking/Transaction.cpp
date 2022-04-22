@@ -18,7 +18,7 @@ struct Guard {
 };
 }  // namespace
 
-Transaction::Transaction() : fee_(11) {}
+Transaction::Transaction() : fee_(1) {}
 
 Transaction::~Transaction() {}
 
